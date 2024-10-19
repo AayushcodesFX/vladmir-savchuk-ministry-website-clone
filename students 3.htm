@@ -1,0 +1,1131 @@
+
+<!DOCTYPE html>
+
+
+
+<script>
+// OnScroll event handler
+const onScroll = () => {
+
+  // Get scroll value
+  const scroll = document.documentElement.scrollTop;
+  const slider = $(".slider-block").height() - $("#header").height();
+
+  //console.log ("scroll - " + scroll + " - " + slider);
+
+  // If scroll value is more than 0 - add class
+  if (scroll > slider) {
+    $("#header").addClass("noImage");
+    $(".logo").addClass("logo-small");
+  } else {
+    if (slider != 0)
+    {
+        $("#header").removeClass("noImage")
+    }
+    $(".logo").removeClass("logo-small");
+  }
+}
+
+// Optional - throttling onScroll handler at 100ms with lodash
+//const throttledOnScroll = _.throttle(onScroll, 100, {})
+
+// Use either onScroll or throttledOnScroll
+window.addEventListener('scroll', onScroll)
+</script>
+
+<html class="no-js">
+<head><meta http-equiv="X-UA-Compatible" content="IE=10" /><meta charset="utf-8" /><title>
+	Students | Mountain Christian Church
+</title><link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&amp;display=swap" rel="stylesheet" />
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '248251476271000'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=248251476271000&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->  
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3983479981732093'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=3983479981732093&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+    <script src="/Scripts/jquery-1.12.4.min.js"></script>
+  
+
+    <!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+	<!-- Included CSS Files -->
+
+    <link rel="stylesheet" href="/Themes/MountainV2/Styles/bootstrap.css?v=637274825068709390"/>
+    <link rel="stylesheet" href="/Themes/MountainV2/Styles/theme.css?v=638532903742978022"/>
+    <link rel="stylesheet" href="/Themes/MountainV2/Styles/main.css?v=638192195683029553"/>
+
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDp3l-UwEI-NRgQABfan1eEiVnrIFf6uBs&libraries=places" defer></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyBRCctxagBP4SWLj6hY95Fxs72SWxDpzYQ&libraries=places" defer></script>
+
+    <script src="/Scripts/modernizr.js" ></script>
+    <script src="/Themes/MountainV2/Scripts/jquery.main.js" ></script>
+
+    
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/Assets/Icons/favicon.ico?v=655094444740000000"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/Assets/Icons/touch-icon-ipad-retina.png?v=636531630631871865"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/Assets/Icons/touch-icon-iphone-retina.png?v=636531630631871865"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/Assets/Icons/touch-icon-ipad.png?v=636531630631871865"/>
+    <link rel="apple-touch-icon-precomposed" href="/Assets/Icons/touch-icon-iphone.png?v=636531630631871865"/>
+    
+   <!-- Begin Aspire-->
+    <meta name="msapplication-TileColor" content="#ffffff" /><meta name="theme-color" content="#ffffff" />
+	<meta name="generator" content="Rock v1.15.4.3" />
+	<meta property="og:image" content="https://mountaincc.org/GetImage.ashx/image.jpg?Guid=9026044b-2276-4275-82c6-2c5685623aad" />
+    <!--End Aspire-->
+        
+
+
+	<link rel="shortcut icon" sizes="192x192" href="/GetImage.ashx?id=254136&width=192&height=192&mode=crop&format=png" />
+	<link rel="apple-touch-icon-precomposed" sizes="16x16" href="/GetImage.ashx?id=254136&width=16&height=16&mode=crop&format=png" />
+	<link rel="apple-touch-icon-precomposed" sizes="32x32" href="/GetImage.ashx?id=254136&width=32&height=32&mode=crop&format=png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/GetImage.ashx?id=254136&width=144&height=144&mode=crop&format=png" />
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/GetImage.ashx?id=254136&width=180&height=180&mode=crop&format=png" />
+	<link rel="apple-touch-icon-precomposed" sizes="192x192" href="/GetImage.ashx?id=254136&width=192&height=192&mode=crop&format=png" /><!-- Social Media Tags -->
+<!-- OLD TAG: og:image content="https://rock.mountaincc.org/Content/1-MCC-Logo-2-Color.jpg" -->
+<!-- Google Tag Manager --> 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KPR8XST');</script>
+<!-- End Google Tag Manager -->
+<style>
+    @media (max-width: 768px) {
+        .ms-slide-bgcont {
+            display:none!important;
+        }
+    }
+</style></head>
+<body id="body">
+
+    <form method="post" action="./students" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__CVIEWSTATESIZE" id="__CVIEWSTATESIZE" value="0" />
+<input type="hidden" name="__CVIEWSTATE" id="__CVIEWSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZNg8XFrcCKQ8Yri-Uc83pHbMNpL0q0UMWEysJCXnhc8ByI31ig2&amp;t=638563127773552689" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvn54G8ORGtjc2Q-v5HssSZNSjj2H3V3Q1L5RmAPEnO2ETIRCC7VlwM6enrOHVdwCZ5aTKNMhjDmSc7wRxFZvpYQVit9FHoOE_pdQlHyN_ZhjQfty-DzBExIA4_GsUb4n5eRSYK81&amp;t=ffffffffc820c398" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OMGYIQAYCwhhiE2dUGmlqsRwvUeKnqXDZXo7qPdbI2HeyeGPLAVNQgvSK3y8Dsb-d2MryfEXiKapwx8oL0yw-ZD9Yr7sf4KGfySf01xeIwLv-0UdRzSul7zcTm7SOmZRCnGFbGo1&amp;t=ffffffffc820c398" type="text/javascript"></script>
+<script src="/Scripts/Bundles/RockLibs?v=Ovo3hyBiyDoH5oUT3GxqOQcjxde5JLmNOOc3j73Xs1c1" type="text/javascript"></script>
+<script src="/Scripts/Bundles/RockUi?v=Mae3GytQi6wnIsELT2pAEKNqBgbG3GxaYokfbsVCFsU1" type="text/javascript"></script>
+<script src="/Scripts/Bundles/RockValidation?v=ZGZVlETu5hySvggAPSHN2z4wwXVKeh9vUX8dHhpb7iQ1" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="j9vIn7oidaHv+nOXgs0mV6aI6ll9PGrjR1C/r3tuvbafeDa92uC6mJJdW0a94CoNy+0/4oE9MSlRt8+7Fx9Vc64mq46MZVoiJOtDY6Ymf8GzpWn4ovq+Nfi0awiubEyRVtsL1A==" />
+</div>
+        
+        <div id="wrapper">
+            <!-- Page Header -->
+            <header id="header">
+        
+	        
+                <div class="container">
+
+                    <!--FAKE FORM -->
+                        <div class="search-form" action="/Search.aspx">
+                            <span class="container">
+                            <fieldset>
+		                    <input id="searchfield" name="searchfield" type="text" class="form-control" 
+                                placeholder="Enter your search term..." 
+                                onfocus="this.placeholder = ''"
+                                onblur="this.placeholder = 'Enter your search term...'">
+
+                                <!--<button type="submit"><span class="fa fa-search"></span></button>--> 
+                                <a href="/MySearch" class="search-opener no-index"><span class="headline">X</span></a>
+                            </fieldset>
+                            </span>
+                        </div>
+<script>
+document.getElementById('searchfield').onkeypress = function(e) {
+    if (!e) e = window.event;
+    var keyCode = e.keyCode || e.which;
+    if (keyCode == '13'){
+      // Enter pressed
+      console.log('enter pressed');
+      var searchtext = document.getElementById('searchfield').value;
+      window.location.replace("/MySearch?Q=" + searchtext);
+      return false;
+    }
+}
+</script>
+                <!--END FAKE FORM -->
+
+                <!-- page logo -->
+                  
+
+				    <div class="logo-holder">
+					    <a href="/page/940" class="logo"><img src="/Themes/MountainV2/assets/images/Web-Logo-200-MCC.png" alt="Mountain Christian Church"></a>
+				    </div>
+
+				    <!-- main navigation of the page -->
+                    <nav id="nav"> <a href="#" class="nav-opener"> <span></span> </a>
+                        <div id="zone-navigation" class="zone-instance"><div class="zone-content"><div id="bid_2007" data-zone-location="Site" class="block-instance js-block-instance page-menu">
+	<div class="block-content">
+		<div id="ctl00_ctl21_ctl01_ctl00_upContent">
+			
+    
+
+
+    <div class=nav-drop>
+    <ul class="navigation accordion">
+
+		
+
+            <li>
+				
+					<a class="opener" href="/UnstoppableGood">Unstoppable Good</a>
+				
+
+				
+
+					
+					
+            </li>
+		
+
+            <li>
+				
+					<a class="opener" href="#">ABOUT</a>
+				
+
+				
+
+					
+						
+						<ul class="slide">
+
+							
+								<li>
+									<a href="/About">About Mountain</a>
+								</li>
+							
+								<li>
+									<a href="/findmylocation">Locations</a>
+								</li>
+							
+								<li>
+									<a href="/NewHere">What to Expect</a>
+								</li>
+							
+								<li>
+									<a href="/Staff">Staff</a>
+								</li>
+							
+
+						</ul>
+				
+					
+            </li>
+		
+
+            <li>
+				
+					<a class="opener" href="#">MINISTRIES</a>
+				
+
+				
+
+					
+						
+						<ul class="slide">
+
+							
+								<li>
+									<a href="/page/1116">Care & Recovery</a>
+								</li>
+							
+								<li>
+									<a href="/page/1301">Kids</a>
+								</li>
+							
+								<li>
+									<a href="/page/1310">Students</a>
+								</li>
+							
+								<li>
+									<a href="/youngadults">Young Adults</a>
+								</li>
+							
+								<li>
+									<a href="/sports">Sports</a>
+								</li>
+							
+								<li>
+									<a href="/page/2339">Mental Health</a>
+								</li>
+							
+
+						</ul>
+				
+					
+            </li>
+		
+
+            <li>
+				
+					<a class="opener" href="#">GET CONNECTED</a>
+				
+
+				
+
+					
+						
+						<ul class="slide">
+
+							
+								<li>
+									<a href="/welcometomountain">Welcome to Mountain</a>
+								</li>
+							
+								<li>
+									<a href="/events">Events</a>
+								</li>
+							
+								<li>
+									<a href="/groups">Groups</a>
+								</li>
+							
+								<li>
+									<a href="/serve">Serve</a>
+								</li>
+							
+								<li>
+									<a href="/learn">Learn</a>
+								</li>
+							
+								<li>
+									<a href="/Baptism">Baptism</a>
+								</li>
+							
+
+						</ul>
+				
+					
+            </li>
+		
+
+            <li>
+				
+					<a class="opener" href="#">MEDIA</a>
+				
+
+				
+
+					
+						
+						<ul class="slide">
+
+							
+								<li>
+									<a href="/sermons">Messages</a>
+								</li>
+							
+								<li>
+									<a href="/rightnow">RightNow Media</a>
+								</li>
+							
+								<li>
+									<a href="/podcast">Podcast</a>
+								</li>
+							
+								<li>
+									<a href="/Resources">Discipleship Resources</a>
+								</li>
+							
+								<li>
+									<a href="/page/1004">Ben's Blog</a>
+								</li>
+							
+
+						</ul>
+				
+					
+            </li>
+		
+
+            <li>
+				
+					<a class="opener" href="#">GIVE</a>
+				
+
+				
+
+					
+						
+						<ul class="slide">
+
+							
+								<li>
+									<a href="/GiveNow">Give Now</a>
+								</li>
+							
+
+						</ul>
+				
+					
+            </li>
+		
+
+    </ul></div>
+
+
+
+		</div>
+
+	</div>
+</div></div></div>
+                    </nav>
+
+                    <!-- header-icons -->
+                        <div class="navicon-holder">
+                        <ul class="icon-holder">
+                            
+                            <li class="position-relative"> <a href="/USearch" class="search-opener"><span class="icon-search"></span></a> </li>
+                            <li class="user-icon"><a href="/Account"><span class="icon-user-circle-o"></span></a></li>
+                        </ul>
+                        </div>
+
+			    </div>
+
+            </header>
+		
+            <main id="main">
+
+                
+ 
+      <!-- Ajax Error -->
+    <div class="alert alert-danger ajax-error no-index" style="display:none">
+        <p><strong>Error</strong></p>
+        <span class="ajax-error-message"></span>
+    </div>
+  
+    <!-- Start Content Area -->
+    <div class="slider-block viewport-section">
+        <div class="master-slider-hold" id="masterslider">
+            <div id="zone-slider" class="zone-instance"><div class="zone-content"><div id="bid_6203" data-zone-location="Site" class="block-instance js-block-instance html-content">
+	<div class="block-content">
+		<div id="ctl00_content_ctl06_ctl01_ctl00_upnlHtmlContentView">
+			
+        
+
+        
+        
+
+        
+
+
+
+
+    
+		</div>
+
+<div id="ctl00_content_ctl06_ctl01_ctl00_upnlHtmlContentEdit">
+			
+
+
+
+        
+        
+
+    
+		</div>
+
+	</div>
+</div><div id="bid_3206" data-zone-location="Page" class="block-instance js-block-instance content-channel-view">
+	<div class="block-content">
+		
+
+<script type="text/javascript">
+    function clearDialog() {
+        $('#rock-config-cancel-trigger').trigger('click');
+    }
+</script>
+
+<div id="ctl00_content_ctl06_ctl02_ctl00_upnlContent">
+			
+
+        
+        <div id="ctl00_content_ctl06_ctl02_ctl00_pnlView">
+				
+            
+            <style>
+    
+    @media (max-width: 767px) {
+        .ms-slide-bgcont {
+          display: block !important;
+        }
+      }
+    @media screen and (max-width: 576px) {
+        .master-slider {
+            max-height: 275px !important;
+        }
+        
+        .ms-slide-bgcont img {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            height: auto !important;
+            max-width: 485px !important;
+            min-width: 485px !important;
+            min-height: 1px;
+            /* min-width: 100%; */
+            width: auto;
+            z-index: -1;
+            margin-left: 0px !important;
+            margin-top: 0px !important;
+        }
+    }
+</style>
+
+<div class="master-slider">
+
+
+        
+
+
+  
+
+  
+
+  
+  
+    <div class="ms-slide slide-1" data-delay="3.5">
+        <img src="/Themes/MountainV2/masterslider/style/blank.gif" data-src="/GetImage.ashx?Guid=399adc3e-be24-49e9-8f76-e6a9784aed79" alt="" />
+
+        
+        
+ 
+        
+	
+	
+        
+
+        
+        </div>
+    
+    
+      
+  </div>
+
+            
+        
+			</div>
+
+        
+        
+
+    
+		</div>
+
+	</div>
+</div></div></div>
+        </div>
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="individual-info">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+                <div id="sidebar">
+                <div id="zone-leftnav" class="zone-instance"><div class="zone-content"><div id="bid_3209" data-zone-location="Page" class="block-instance js-block-instance page-menu">
+	<div class="block-content">
+		<div id="ctl00_content_ctl08_ctl01_ctl00_upContent">
+			
+    
+
+	
+		<ul id="inline-menu" class="sidebar-menu">
+		<li class="parent ">
+    <a href="/page/1310">Students</a>
+		</li>
+
+
+		  
+			
+		  <li  class="active" >
+			<a href="/Students">Students</a>
+		  </li>
+			
+		  
+			
+		  <li >
+			<a href="/studentsparents">Parents</a>
+		  </li>
+			
+		  
+			
+		  <li >
+			<a href="/middleschool">Middle School</a>
+		  </li>
+			
+		  
+			
+		  <li >
+			<a href="/highschool">High School</a>
+		  </li>
+			
+		  
+			
+		  <li >
+			<a href="/studentsbaptism">Baptism</a>
+		  </li>
+			
+		  
+			
+		  <li >
+			<a href="/studentsspecialneeds">Special Needs</a>
+		  </li>
+			
+		  
+			
+		  <li >
+			<a href="/page/1315">Join the Team</a>
+		  </li>
+			
+		  
+			
+		  <li >
+			<a href="/Camps">Camps</a>
+		  </li>
+			
+		  
+		</ul>
+	
+
+
+		</div>
+
+	</div>
+</div></div></div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div id="zone-maincontent" class="zone-instance"><div class="zone-content"><div id="bid_3207" data-zone-location="Page" class="block-instance js-block-instance html-content">
+	<div class="block-content">
+		<div id="ctl00_content_ctl10_ctl01_ctl00_upnlHtmlContentView">
+			
+        
+
+        
+        
+
+        <h2>STUDENTS</h2> 
+<br><ul class="social-networks">
+                <li><a href="https://www.facebook.com/groups/mountainfamilies"><i class="icon-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/mccstudents/"><i class="icon-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/mountainstudents"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16" class="mcc-icon iconify" data-icon="icomoon-free:youtube" data-inline="false" style="transform: rotate(360deg);"><path d="M15.841 4.8s-.156-1.103-.637-1.587c-.609-.637-1.291-.641-1.603-.678c-2.237-.163-5.597-.163-5.597-.163h-.006s-3.359 0-5.597.163c-.313.038-.994.041-1.603.678C.317 3.697.164 4.8.164 4.8S.005 6.094.005 7.391v1.213c0 1.294.159 2.591.159 2.591s.156 1.103.634 1.588c.609.637 1.409.616 1.766.684c1.281.122 5.441.159 5.441.159s3.363-.006 5.6-.166c.313-.037.994-.041 1.603-.678c.481-.484.637-1.588.637-1.588s.159-1.294.159-2.591V7.39c-.003-1.294-.162-2.591-.162-2.591zm-9.494 5.275V5.578l4.322 2.256l-4.322 2.241z" fill="currentColor"></path></svg></a></li>
+                <li><a href="https://www.tiktok.com/@mccstudents "><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="mcc-icon iconify" data-icon="ion:logo-tiktok" data-inline="false" style="transform: rotate(360deg);"><path d="M412.19 118.66a109.27 109.27 0 0 1-9.45-5.5a132.87 132.87 0 0 1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14 23.9 350 16 350.13 16h-82.44v318.78c0 4.28 0 8.51-.18 12.69c0 .52-.05 1-.08 1.56c0 .23 0 .47-.05.71v.18a70 70 0 0 1-35.22 55.56a68.8 68.8 0 0 1-34.11 9c-38.41 0-69.54-31.32-69.54-70s31.13-70 69.54-70a68.9 68.9 0 0 1 21.41 3.39l.1-83.94a153.14 153.14 0 0 0-118 34.52a161.79 161.79 0 0 0-35.3 43.53c-3.48 6-16.61 30.11-18.2 69.24c-1 22.21 5.67 45.22 8.85 54.73v.2c2 5.6 9.75 24.71 22.38 40.82A167.53 167.53 0 0 0 115 470.66v-.2l.2.2c39.91 27.12 84.16 25.34 84.16 25.34c7.66-.31 33.32 0 62.46-13.81c32.32-15.31 50.72-38.12 50.72-38.12a158.46 158.46 0 0 0 27.64-45.93c7.46-19.61 9.95-43.13 9.95-52.53V176.49c1 .6 14.32 9.41 14.32 9.41s19.19 12.3 49.13 20.31c21.48 5.7 50.42 6.9 50.42 6.9v-81.84c-10.14 1.1-30.73-2.1-51.81-12.61z" fill="currentColor"></path></svg></a></li>
+                <li><a href="mailto:students@mountaincc.org"><i class="icon-envelope-o"></i></a></li>
+              </ul><br>
+
+<p>Middle and high school is a time of self-discovery and greater freedom. Mountain Students partners with parents and invites students into something greater than themselves. Students is a community that will challenge them to think about life in a way that provides significance, purpose, and belonging.</p><!--Students Groups info below from COVID times:
+<p>Real conversations. Life-long friendships. Adult leaders who truly care.</p>
+
+<p><span style="font-size: 18px;">Being a part of Students Groups is the best decision you can make! In Students G</span><span style="font-size: 18px;">roups, there’s an authentic community where it’s safe to be yourself while also being challenged to grow and be a better you. There are times to have fun and connect with new friends. Plus, there are adult leaders there for you who genuinely care about you and want to hear how your week is going.</span></p>
+
+<p><a class="theme-btn" href="https://mountaincc.org/Registration?RegistrationInstanceId=190">Join a Group</a></p><br>
+
+<h3>Details</h3>
+<p>Students Groups is an experience that is centered around relationships and helps connect every student to a group of students led by Group Leaders. Middle and high schoolers will arrive at their Mountain campus on Wednesdays to hang out, connect, and be challenged through a message designed specifically for students. After the message, the best part of the night kicks off as everyone breaks into smaller groups guided by adult leaders where students can share what’s going on in their lives and talk about the message.</p><p><b>At a Glance<br></b><span style="font-size: 1.8rem;">Wednesday nights at each Mountain Campus &amp; Online<br></span><span style="font-size: 1.8rem;">Middle School:  6-7:30 PM&nbsp;<br></span><span style="font-size: 1.8rem;">High School:  7:30-9 PM<br></span><span style="font-size: 1.8rem;">See your campus’ page for a calendar for the semester.&nbsp;</span></p><p>
+</p><p><br></p><p>
+</p><h3>COVID safety guidelines</h3><p>The safety of students is a huge value at Mountain. The Students Team looks to meet or exceed all CDC and local health department guidance to help keep students safe. In addition, Mountain Students is providing several options to allow each family to pick what works best for your family.&nbsp;</p><p>At this time, there is still an adjusted in-person experience in place. Currently, masks are still required for all students and Students Team Members at Students Groups just like the public school systems. As students enter, there are screening questions asked during the check-in process. Space for social distancing is available for each student and group and encouraged during group discussions. Plus, enhanced cleaning and sanitization protocols are still in place. Also, food and drink are limited. You can find additional guidelines and safety protocols for the in-person experience of Students Groups <a href="https://docs.google.com/document/d/1AY81fxKnljsrT5IyRoK3TDN5allsjk9zqpvNI_uMU9w/edit" target="_blank">HERE</a>.</p><p>In addition, a digital option is available for all students and families who are not ready or comfortable with meeting in-person. The digital option allows students to join in with the same groups as the students who are joining in-person. Students will watch a YouTube Premiere video that starts 15 minutes after the start time (MS: 6:15 PM, HS: 7:45 PM). The video includes the same content as the in-person message, and at the end provides a Zoom link for students to join a group through Zoom right after the video ends.&nbsp;</p><p><span style="font-size: 1.8rem;"><br></span></p>
+
+
+<h3>General Flow of a Students Groups Night once restrictions lift</h3>
+<ul>
+<li>30 minutes - Hang Out Time: An opportunity to have fun and hang with friends.</li>
+<li>25 minutes - Campus Time: A time for everyone to get together and hear a challenging message.</li>
+<li>40 minutes - Group Time: The main part of the night where students connect in smaller groups and share what’s going on in their lives.<br><br></li></ul><h3>Flow of a Students Groups Night Right Now
+</h3><ul><li>15 minutes - Check-In and Connect: An opportunity to check-in, get settled into the space, and connect with their group.*
+</li><li>20 minutes - Listen to Content: A time for each student to hear a challenge message through video.
+</li><li>45 minutes - Discuss with Group: The main part of the night where students connect in groups and share what’s going on in their lives. These groups meet hybrid style with digital and in-person options for students and leaders together.
+</li><li>10 minutes - Clean-Up: Groups will spend some time cleaning and wiping down what they have touched including any chairs, supplies, and other surfaces.
+</li></ul><p>*Students participating digitally jump right after this point on <a href="https://www.youtube.com/mountainstudents" target="_blank">Mountain Students YouTube</a>.
+<br><br></p><p>
+</p><h3>Have more questions?
+</h3><p>Check out the <a href="https://docs.google.com/document/d/1XXf7ZU5OmJ_8bWG4KXmzc650nqztncttOh73DcJQ3S8/edit" target="_blank">FAQs for Students Groups</a> or email the Students Team at <a href="mailto:students@mountaincc.org" target="_blank">students@mountaincc.org</a>.&nbsp;</p><p><br></p><ul>
+</ul>
+
+<p><a class="theme-btn" href="https://mountaincc.org/Registration?RegistrationInstanceId=190">Join a Group</a></p>-->
+<div>Middle and high school can be tough, but there’s no need to go through it alone. Come together with other students from the area on a journey of following Jesus, being a part of a community where you can be real, and becoming a difference maker who makes a positive impact wherever you go.</div><div><br></div><div><a class="theme-btn" href="https://www.mountaincc.org/studentsgroups">Learn About Students Groups</a></div><div><br></div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div><div>
+</div>
+    
+		</div>
+
+<div id="ctl00_content_ctl10_ctl01_ctl00_upnlHtmlContentEdit">
+			
+
+
+
+        
+        
+
+    
+		</div>
+
+	</div>
+</div></div></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="individual-info info-block styles-block ">
+        <div class="container">
+            <div id="zone-cardpromostitle" class="zone-instance"><div class="zone-content"><div id="bid_3882" data-zone-location="Page" class="block-instance js-block-instance html-content">
+	<div class="block-content">
+		<div id="ctl00_content_ctl12_ctl01_ctl00_upnlHtmlContentView">
+			
+        
+
+        
+        
+
+           <div class="title">
+      <h2>Students Events</h2>
+    </div>
+    
+		</div>
+
+<div id="ctl00_content_ctl12_ctl01_ctl00_upnlHtmlContentEdit">
+			
+
+
+
+        
+        
+
+    
+		</div>
+
+	</div>
+</div></div></div>
+            <div id="zone-cardpromos" class="zone-instance"><div class="zone-content"><div id="bid_3883" data-zone-location="Page" class="block-instance js-block-instance content-channel-view">
+	<div class="block-content">
+		
+
+<script type="text/javascript">
+    function clearDialog() {
+        $('#rock-config-cancel-trigger').trigger('click');
+    }
+</script>
+
+<div id="ctl00_content_ctl14_ctl01_ctl00_upnlContent">
+			
+
+        
+        <div id="ctl00_content_ctl14_ctl01_ctl00_pnlView">
+				
+            
+            
+  <div class="row parent-block">
+    
+	
+	
+    <div class="col-sm-4">
+          <div class="info-content same-height">
+            <a href="/Promo/students-calendar">
+              <div class="image-holder">
+                <img src='/GetImage.ashx?guid=8be4311f-66c4-4025-815f-7f8e71bfa921' class='img-responsive' />
+              </div>
+            </a>
+            <div class="text-content">
+	      <h3>Students Calendars</h3><p>Check out what's happening with Students!</p>
+            </div>
+            <div style="height:30px">&nbsp;</div>  
+          </div>
+          <div class="success-btn" style="position:relative; top:-30px;"><center><a class="text-uppercase" href="/Promo/students-calendar">Learn More ></a></center>
+          </div>
+        </div>
+
+          
+                
+    <div class="col-sm-4">
+          <div class="info-content same-height">
+            <a href="https://mountaincc.org/studentsgroups">
+              <div class="image-holder">
+                <img src='/GetImage.ashx?guid=799c246c-dfc8-4cf5-bae2-15aa804d9d3c' class='img-responsive' />
+              </div>
+            </a>
+            <div class="text-content">
+	      <h3>Students Groups</h3><p><b>Fall-Spring</b> | Real conversations. Life-long friendships. Adult leaders who truly care. Join a students group today!</p>
+            </div>
+            <div style="height:30px">&nbsp;</div>  
+          </div>
+          <div class="success-btn" style="position:relative; top:-30px;"><center><a class="text-uppercase" href="https://mountaincc.org/studentsgroups">Learn More ></a></center>
+          </div>
+        </div>
+
+          
+                
+      </div>
+
+
+
+
+            
+        
+			</div>
+
+        
+        
+
+    
+		</div>
+
+	</div>
+</div></div></div>
+
+        </div>
+    </div>
+
+
+<!-- End Content Area -->
+
+
+            </main>
+
+
+		<!-- footer of the page -->
+		<footer id="footer">
+			<!-- container -->
+			<div class="container">
+				<!-- footer info -->
+				<div id="zone-footer" class="zone-instance"><div class="zone-content"><div id="bid_2006" data-zone-location="Site" class="block-instance js-block-instance html-content">
+	<div class="block-content">
+		<div id="ctl00_ctl23_ctl01_ctl00_upnlHtmlContentView">
+			
+        
+
+        
+        
+
+        <footer id="footer" class="no-index">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-3">
+                <h4>About</h4><br>
+                <a href="/about">About Mountain</a><br>
+                <a href="/findmylocation">Locations & Service Times</a><br>
+                <a href="/newhere">What To Expect</a><br>
+                <a href="/staff">Staff</a><br>
+                <a href="/contact">Contact</a> Us<br>
+                <a href="/store">Store</a><br><br><br>
+                <a href="/page/1213">Email Subscriptions</a><br>
+            </div>
+            <div class="col-md-3">
+                <h4>Get Connected</h4><br>
+                <a href="/welcometomountain">Welcome To Mountain</a><br>
+                <a href="/events">Events</a><br>
+                <a href="/groups">Groups</a><br>
+                <a href="/serve">Serve<a/><br>
+                <a href="/learn">Learn<a/><br>
+                <a href="/baptism">Baptism</a><br>
+                <a href="/prayer">Prayer</a><br>
+                <a href="/help">I Need Help</a><br>
+                <a href="/weddings">Weddings</a><br>
+                <a href="/funerals">Funerals</a><br><br><br>
+            </div>
+            <div class="col-md-3">
+                <h4>Ministries</h4><br>
+                <a href="/page/1199">Care & Recovery</a><br>
+                <a href="/kids">Kids</a><br>
+                <a href="/students">Students</a><br>
+                <a href="/youngadults">Young Adults</a><br>
+                <a href="/sports"> Sports</a><br><br>
+                
+                <h4>Careers</h4><br>
+                <a href="/sim">Internships and Residencies</a><br>
+                <a href="/jobopenings">Job Openings</a><br><br><br>
+            </div>
+            <div class="col-md-3">
+                <h4>Media</h4><br>
+                <a href="/messages">Messages</a><br>
+                <a href="/rightnow">RightNow Media</a><br>
+                <a href="https://www.outofmymind.media/">Ben’s Blog</a><br>
+                <a href="/app">App</a><br><br><br>
+            </div>
+          
+        </div>
+    </div>
+      
+      
+      <!-- copyright-block -->
+      <div class="copyright-block">©2023 Mountain Christian Church&nbsp;•&nbsp;<a href="/privacypolicy">Privacy Policy</a>&nbsp;•&nbsp;<a href="tel:4108771824">410-877-1824</a> &nbsp; •&nbsp; Strategy &amp; Design by&nbsp;<a href="https://aspireone.com">AspireOne</a> </div>
+      <a id="back2Top" title="Back to top" href="#" style="display: inline;">➤</a> </div>
+      
+      
+      <!-- Simple Donation Merlin Widget Install And Rock Logged in Person Check Script -->
+        <script async src="https://merlin.simpledonation.com/js/installScript.js"></script>
+        
+        
+        
+        <script type="text/javascript">
+            var personRow =   {
+          "SimpleDonationPersonId": "notLoggedIntoRock"
+        };
+            var personId = personRow ? personRow['SimpleDonationPersonId'] : 'rockLoggedInNoSdPerson'
+        
+            var baseAmountRow = null;
+            var baseAmount = baseAmountRow ? baseAmountRow['BaseAmount'] : null;
+        
+            window.simpleDonationMerlinSettings = {
+                personId: personId,
+                baseAmount: baseAmount
+            };
+            console.log('merlin initialized');
+            console.log(window.simpleDonationMerlinSettings);
+        </script>
+      <!-- END Simple Donation Merlin Widget Install Script -->
+</footer>
+    
+		</div>
+
+<div id="ctl00_ctl23_ctl01_ctl00_upnlHtmlContentEdit">
+			
+
+
+
+        
+        
+
+    
+		</div>
+
+	</div>
+</div><script>
+    if ($('#ne_action_counter_container').length) {
+    var ne_days, ne_goLive, ne_hours, ne_intervalId, ne_minutes, ne_seconds, liveDomain;
+    let runTimer = false;
+    var ne_goLive;
+    ne_goLive = function() {
+        if (liveDomain != undefined) {
+        $("#ne_co_cd").wrap('<a href="'+liveDomain+'" target="_blank"></a>');
+        } else {
+        $("#ne_co_cd").wrap('<a href="#church-domain-is-not-valid" target="_blank"></a>');
+        }
+        $("#ne_action_counter .time").hide();
+        $("#ne_action_counter .notlive").hide();
+        $("#ne_co_cd .live").show();
+        $('.streaming-now').show();
+    };
+    
+    ne_loadCountdown = function(data){
+        var ne_seconds_till;
+            var now = new Date();
+            try {
+                var startTimeString = data.data.currentOrganization.servicesConnection.services[0].scheduleTime;
+                var startTime = new Date(startTimeString);
+                var endTime = new Date(data.data.currentOrganization.servicesConnection.services[0].endTime);
+            liveDomain = data.domain;
+            } catch {
+                // If we don't get service times, just bail
+                return;
+            }
+            // If we are in between the start and end times then it's LIVE!
+            if (startTime < now && now < endTime) {
+                return ne_goLive();
+            } else {
+                // Parse ISO 8601 date string
+                date = startTimeString.match(/^(\d{4})-0?(\d+)-0?(\d+)[T ]0?(\d+):0?(\d+):0?(\d+)Z$/)
+                dateString = date[2] + "/" + date[3] + "/" + date[1] + " " + date[4] + ":" + date[5] + ":" + date[6] + " +0000"
+                ne_seconds_till = ((new Date(dateString)) - (new Date())) / 1000;
+                ne_days = Math.floor(ne_seconds_till / 86400);
+                ne_hours = Math.floor((ne_seconds_till % 86400) / 3600);
+                ne_minutes = Math.floor((ne_seconds_till % 3600) / 60);
+                ne_seconds = Math.floor(ne_seconds_till % 60);
+                return ne_intervalId = setInterval(function() {
+                if (--ne_seconds < 0) {
+                    ne_seconds = 59;
+                    if (--ne_minutes < 0) {
+                    ne_minutes = 59;
+                    if (--ne_hours < 0) {
+                        ne_hours = 23;
+                        if (--ne_days < 0) {
+                        ne_days = 0;
+                        }
+                    }
+                    }
+                }
+                $("#ne_action_counter .ne_days").html((ne_days.toString().length < 2) ? "0" + ne_days : ne_days);
+                $("#ne_action_counter .ne_hours").html((ne_hours.toString().length < 2 ? "0" + ne_hours : ne_hours));
+                $("#ne_action_counter .ne_minutes").html((ne_minutes.toString().length < 2 ? "0" + ne_minutes : ne_minutes));
+                $("#ne_action_counter .ne_seconds").html((ne_seconds.toString().length < 2 ? "0" + ne_seconds : ne_seconds));
+                if (ne_seconds === 0 && ne_minutes === 0 && ne_hours === 0 && ne_days === 0) {
+                    ne_goLive();
+                    return clearInterval(ne_intervalId);
+                }
+                $("#ne_action_counter_loader").fadeOut().next().delay(500);
+                $("#ne_action_counter_container").fadeIn( 300 );
+                }, 1000);
+            }
+            }
+            ne_days = void 0;
+            ne_hours = void 0;
+            ne_minutes = void 0;
+            ne_seconds = void 0;
+            ne_intervalId = void 0;
+            ne_eventUrl = "/webhooks/Lava.ashx/livestreaming/services";
+            msie = /msie/.test(navigator.userAgent.toLowerCase())
+            if (msie && window.XDomainRequest) {
+                var xdr = new XDomainRequest();
+                xdr.open("get", ne_eventUrl);
+                xdr.onload = function() {
+                ne_loadCountdown(jQuery.parseJSON(xdr.responseText))
+                };
+                xdr.send();
+            } else {
+            $.ajax({
+                url: ne_eventUrl,
+                dataType: "json",
+                crossDomain: true,
+                success: function(data) {
+                ne_loadCountdown(data);
+                },
+                error: function(xhr, ajaxOptions, thrownError) {
+                return console.log(thrownError);
+                }
+            });
+        }
+    }
+</script></div></div>
+			</div>
+             <a id="back2Top" title="Back to top" href="#">&#10148;</a> 
+		</footer>
+    </div>
+
+
+            
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$sManager', 'form1', ['tctl00$ctl18','ctl18','fctl00$ctl23$ctl01$ctl00$upnlHtmlContentView','','fctl00$ctl23$ctl01$ctl00$upnlHtmlContentEdit','','tctl00$ctl21$ctl01$ctl00$upContent','','fctl00$content$ctl06$ctl01$ctl00$upnlHtmlContentView','','fctl00$content$ctl06$ctl01$ctl00$upnlHtmlContentEdit','','tctl00$content$ctl06$ctl02$ctl00$upnlContent','','fctl00$content$ctl10$ctl01$ctl00$upnlHtmlContentView','','fctl00$content$ctl10$ctl01$ctl00$upnlHtmlContentEdit','','tctl00$content$ctl08$ctl01$ctl00$upContent','','fctl00$content$ctl12$ctl01$ctl00$upnlHtmlContentView','','fctl00$content$ctl12$ctl01$ctl00$upnlHtmlContentEdit','','tctl00$content$ctl14$ctl01$ctl00$upnlContent',''], ['ctl00$sManager','sManager','ctl00$rock-config-trigger','rock-config-trigger'], [], 180, 'ctl00');
+//]]>
+</script>
+<input type="hidden" name="ctl00$sManager" id="sManager" />
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.setServerId("sManager", "ctl00$sManager");
+Sys.Application._enableHistoryInScriptManager();
+//]]>
+</script>
+
+            <div id="updateProgress" style="display:none;">
+	
+		                <div class="updateprogress-status">
+                            <div class="spinner">
+                              <div class="rect1"></div>
+                              <div class="rect2"></div>
+                              <div class="rect3"></div>
+                              <div class="rect4"></div>
+                              <div class="rect5"></div>
+                            </div>
+                        </div>
+                        <div class="updateprogress-bg modal-backdrop"></div>
+		            
+</div>
+
+    
+       
+
+    <div id="ctl18" style="display:none">
+	<input type="submit" name="ctl00$rock-config-trigger" value="" id="rock-config-trigger" /><input type="hidden" name="ctl00$rock-config-trigger-data" id="rock-config-trigger-data" />
+</div><div id="modal-popup" class="modal container modal-content rock-modal rock-modal-frame">
+	<div id="modal-popup_contentPanel" class="iframe">
+		<iframe id="modal-popup_iframe" scrolling="no" style="height:auto;"></iframe>
+	</div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+
+Rock.settings.initialize({
+    siteId: 11,
+    layoutId: 98,
+    pageId: 1423,
+    layout: 'PageLeftMenu',
+    baseUrl: '/'
+});Rock.controls.modal.closeModalDialog($('#ctl00_content_ctl06_ctl01_ctl00_mdEdit_modal_dialog_panel'));Rock.controls.modal.closeModalDialog($('#ctl00_content_ctl10_ctl01_ctl00_mdEdit_modal_dialog_panel'));Rock.controls.modal.closeModalDialog($('#ctl00_content_ctl12_ctl01_ctl00_mdEdit_modal_dialog_panel'));Rock.controls.modal.closeModalDialog($('#ctl00_ctl23_ctl01_ctl00_mdEdit_modal_dialog_panel'));Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":800,"dynamicLayout":true}, null, null, $get("updateProgress"));
+});
+//]]>
+</script>
+</form>
+</body>
+
+</html>
